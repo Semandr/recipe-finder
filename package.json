@@ -1,0 +1,22 @@
+{
+  "name": "recipe-finder",
+  "version": "1.0.0",
+  "description": "Recipe finder in JS course",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Semandr/recipe-finder.git"
+  },
+  "author": "Andriy (Semandr)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Semandr/recipe-finder/issues"
+  },
+  "homepage": "https://github.com/Semandr/recipe-finder#readme",
+  "devDependencies": {
+    "parcel": "^2.5.0"
+  }
+}
