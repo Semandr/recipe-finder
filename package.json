@@ -1,5 +1,6 @@
 {
   "name": "recipe-finder",
+  "source": "index.html",
   "version": "1.0.0",
   "description": "Recipe finder in JS course",
   "scripts": {
@@ -17,6 +18,7 @@
   },
   "homepage": "https://github.com/Semandr/recipe-finder#readme",
   "devDependencies": {
+    "@parcel/transformer-sass": "^2.5.0",
     "parcel": "^2.5.0"
   }
 }
