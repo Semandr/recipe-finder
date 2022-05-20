@@ -29,4 +29,3 @@ export const loadRecipe = async function (id) {
     alert(error);
   }
 };
-console.log(state.recipe);
