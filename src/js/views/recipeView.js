@@ -11,7 +11,7 @@ class RecipeView extends View {
     ['hashchange', 'load'].forEach(ev => window.addEventListener(ev, handler));
   }
   _generateMarkup() {
-    console.log(this._data);
+    // console.log(this._data);
     return `
     <figure class="recipe__fig">
       <img src="${this._data.image}" alt="${
