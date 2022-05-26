@@ -1,8 +1,12 @@
 {
   "name": "recipe-finder",
-  "source": "index.html",
   "version": "1.0.0",
   "description": "Recipe finder in JS course",
+  "default": "index.html",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "targets": {
+    "main": false
+  },
   "scripts": {
     "start": "parcel index.html",
     "build": "parcel build index.html"
@@ -23,7 +27,7 @@
   },
   "dependencies": {
     "core-js": "^3.22.5",
-    "fractional": "^1.0.0",
+    "fracty": "^1.0.11",
     "regenerator-runtime": "^0.13.9",
     "sass": "^1.52.1"
   }
